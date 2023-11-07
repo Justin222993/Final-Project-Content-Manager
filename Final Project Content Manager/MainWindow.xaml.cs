@@ -24,5 +24,12 @@ namespace Final_Project_Content_Manager
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello");
+
+            MessageBox.Show("Bye");
+        }
     }
 }
